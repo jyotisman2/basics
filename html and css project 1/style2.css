@@ -1,0 +1,102 @@
+
+ *{
+     background: black;
+     margin: 20;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Poppins',sans-serif;
+ }
+ nav{
+      position: fixed;
+      background: #72b165;
+      width: 100%;
+      padding: 20px;
+      
+ }
+ nav .menu{
+    max-width: 1250px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+ .menu .logo a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .menu ul{
+    display: inline-flex;
+  }
+  .menu ul li {
+
+    list-style: none;
+    margin-left: 20px;
+  }
+  .manu ul li a{
+      text-decoration: none;
+      color: #fff;
+      font-size: 18px;
+      font-weight: 500;
+      padding: 8px 15px;
+      border-radius: 10px;
+      transition: all 0.3s ease;
+  }
+  .menu ul li a:hover{
+    background: rgb(199, 131, 131);
+    color: black;
+  }
+  .center{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 0 20px;
+    text-align: center;
+  }
+  .center .title{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 600;
+  }
+  .center .sub_title{
+    color: #fff;
+    font-size: 52px;
+    font-weight: 600;
+  }
+  .center .btns{
+    margin-top: 30px;
+  }
+  .center .btns button{
+      height: 55px;
+      width: 180px;
+      border-radius: 10px;
+      
+      margin: 0 10px;
+      border: 2px solid white;
+      font-size: 20px;
+      font-weight: 500;
+      color: white;
+      padding: 0 10px;
+      cursor: pointer;
+      outline: none;
+  
+  }
+  .center .btns button:first-child{
+   
+    background: none;
+  }
+  .btns button:first-child:hover{
+    background: rgb(9, 241, 168);
+    color: black;
+
+
+  }
+  .center .btns button:last-child{
+    background: white;
+    color: black;
+  }
+  
